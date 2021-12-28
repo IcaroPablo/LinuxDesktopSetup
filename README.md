@@ -1,2 +1,2 @@
 # LinuxDesktopSetup
-My build for window manager and other programs plus dotfiles
+My builds for window manager and other programs plus dotfiles
