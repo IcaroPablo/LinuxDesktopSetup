@@ -1,2 +1,2 @@
 # LinuxDesktopSetup
-My dotfiles and some useful shellscripts
+My collection of useful shellscripts
