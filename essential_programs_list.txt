@@ -14,5 +14,6 @@ abduco
 xsetroot
 playerctl
 
+# for lof.sh
 wmctrl
 xbindkeys
