@@ -13,8 +13,6 @@ echo "dotfiles_folder defined as $dotfiles_folder"
 echo "dotfiles_backup_folder defined as $dotfiles_backup_folder"
 echo ""
 
-#variável com o caminho para a pasta de dotfiles
-
 dotfiles_list=(
 $HOME/.xinitrc
 $HOME/.bashrc
@@ -57,13 +55,9 @@ for dotfile in ${dotfiles_list[@]}; do
 	    rm -rf $dotfile
 
 	else
-		#echo $dotfile
-		#echo $dotfiles_backup_folder
 		mv $dotfile $dotfiles_backup_folder
 		mv "$dotfiles_backup_folder/$dotfile_name" "$dotfiles_backup_folder/$bkpname"
 	fi
-
-	#se não
 
     # link saved version of the dotfile to the correct location
     echo "creating link for $dotfiles_folder/$dotfile_name at $dotfile_location"
