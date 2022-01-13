@@ -169,8 +169,6 @@ cat ~/.cache/wal/sequences
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
 
-export AWS_ID="AKIA6BZRT7L4WPPCTWBC"
-export AWS_SECRET="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"
 export FZF_DEFAULT_COMMAND='ag . --hidden --ignore .git -l -g ""'
 
 #eval "$(zoxide init bash --cmd cd)"
