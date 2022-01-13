@@ -3,13 +3,8 @@
 
 HOME=$1
 
-libraries=(
-libXinerama
-pkgbuild
-...
-)
-
 repositories=(
+"dvtm https://github.com/martanne/dvtm"
 "my-dwm-fork https://github.com/IcaroPablo/my-dwm-fork"
 "my-dmenu-fork https://github.com/IcaroPablo/my-dmenu-fork"
 "my-suckless-terminal-fork https://github.com/IcaroPablo/my-suckless-terminal-fork"
