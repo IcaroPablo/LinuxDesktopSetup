@@ -14,16 +14,17 @@ echo "dotfiles_backup_folder defined as $dotfiles_backup_folder"
 echo ""
 
 dotfiles_list=(
-$HOME/.xinitrc
-$HOME/.bashrc
-$HOME/.zshrc
-$HOME/.vimrc
-$HOME/.xprofile
-$HOME/.config/nvim/init.vim
-$HOME/.config/mimeapps.list
-$HOME/.config/picom/picom.conf
-/etc/pacman.conf
-/etc/pacman.d/mirrorlist
+"$HOME/.xinitrc"
+"$HOME/.bashrc"
+"$HOME/.zshrc"
+"$HOME/.vimrc"
+"$HOME/.xprofile"
+"$HOME/.config/nvim/init.vim"
+"$HOME/.config/mimeapps.list"
+"$HOME/.config/picom/picom.conf"
+"$HOME/.config/snownews/urls.opml"
+"/etc/pacman.conf"
+"/etc/pacman.d/mirrorlist"
 )
 
 for dotfile in ${dotfiles_list[@]}; do
