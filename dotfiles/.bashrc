@@ -169,7 +169,7 @@ cat ~/.cache/wal/sequences
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
 
-export FZF_DEFAULT_COMMAND='ag . --hidden --ignore .git -l -g ""'
+#export FZF_DEFAULT_COMMAND='ag . --hidden --ignore .git -l -g ""'
 
 #eval "$(zoxide init bash --cmd cd)"
 alias ot="fzf --preview 'bat --color always {}' | sed 's/ /\\ /g' | xargs -r nvim"
