@@ -150,8 +150,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # adding intellij to the $PATH
 alias idea='sh /opt/idea/idea-IC-212\.4746\.92/bin/idea.sh'
 
-# "adding coolterm to the path"
-alias coolterm='sudo /opt/coolterm/CoolTermLinux/CoolTerm'
+alias ls='ls --color -l --group-directories-first | bat'
 
 # alias for openvpn with maida settings
 alias maidavpn1='cat ~/Maida/maidavpnpw.txt | xclip -i -se c && sudo openvpn Maida/jarvis-UDP4-1194-icaro.andrade-config.ovpn'
@@ -161,10 +160,10 @@ alias maidavpn2='cat ~/Maida/maidavpnpw.txt | xclip -i -se c && sudo openvpn Mai
 # &   # Run the process in the background.
 # ( ) # Hide shell job control messages.
 # Not supported in the "fish" shell.
-(cat ~/.cache/wal/sequences &)
+#(cat ~/.cache/wal/sequences &)
 
 # Alternative (blocks terminal for 0-3ms)
-cat ~/.cache/wal/sequences
+#cat ~/.cache/wal/sequences
 
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh

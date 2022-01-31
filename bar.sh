@@ -28,9 +28,18 @@ get_battery_status() {
     	current_battery_charge="$(cat "/sys/class/power_supply/$battery/capacity")"
 		current_battery_status="$(cat "/sys/class/power_supply/$battery/status")"
 		echo "battery: "$current_battery_charge"% ("$current_battery_status") |"
+	
+		if [ $current_battery_charge -lt "10" -a $current_battery_status = "Discharging" ]; then
+			# st -e sh -c 'figlet bateria fraca recarregue imediatamente; bash' 
+			# figlet bateria fraca recarregue imediatamente | dmenu -l 25
+			{ echo ""; figlet -c bateria fraca recarregue imediatamente; } | tr "\n" "\n" | dmenu -l 19
+			
+			#show_message="0"
+		fi
 	else
 		echo ""
 	fi
+
 }
 
 get_datetime() {
