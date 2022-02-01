@@ -151,8 +151,8 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 alias idea='sh /opt/idea/idea-IC-212\.4746\.92/bin/idea.sh'
 
 alias ll='ls --color -l --group-directories-first | bat'
-
 alias la='ls --color -la --group-directories-first | bat'
+alias rm='rm -i'
 
 # alias for openvpn with maida settings
 alias maidavpn1='cat ~/Maida/maidavpnpw.txt | xclip -i -se c && sudo openvpn Maida/jarvis-UDP4-1194-icaro.andrade-config.ovpn'
