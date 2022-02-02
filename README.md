@@ -1,6 +1,7 @@
-# LinuxDesktopSetup
-My collection of useful shellscripts.
+# Shell Script Collection
+My collection of useful shellscripts (and my dotfiles).
 
+# About this repo
 - All my dotfiles are inside the dotfile folder
 - The shell scripts are placed at the root directory because I consider them few, hence, they don't need to be separated in folders yet
 
