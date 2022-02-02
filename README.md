@@ -2,7 +2,7 @@
 My collection of useful shellscripts (and my dotfiles).
 
 ## About this repo
-- All my dotfiles are inside the dotfile folder
+- All my dotfiles are inside the [dotfiles](/dotfiles) folder
 - The shell scripts are placed at the root directory because I consider them few, hence, they don't need to be separated in folders yet
 
 >_Note: this is still a work in progress, I'm still a newb_
