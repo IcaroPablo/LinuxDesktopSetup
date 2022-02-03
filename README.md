@@ -1,5 +1,5 @@
 # Shell Script Collection
-My collection of useful shellscripts (and my dotfiles).
+My collection of useful shellscripts (and my dotfiles)
 
 ## About this repo
 - All my dotfiles are inside the [dotfiles](/dotfiles) folder
