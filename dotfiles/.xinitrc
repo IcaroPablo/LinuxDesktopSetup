@@ -4,6 +4,9 @@
 #
 # Executed by startx (run your window manager from here)
 
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
@@ -63,6 +66,7 @@ get_session(){
 	echo "dbus-launch ${dbus_args[*]}"
 }
 
+xset r rate 300 50 &
 $HOME/Workspace/shell-script-collection/bar.sh &
 $HOME/.fehbg &
 exec dwm
