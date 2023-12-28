@@ -148,7 +148,7 @@ export M2_HOME="/opt/maven/apache-maven-3.8.1/bin"
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 # adding intellij to the $PATH
-alias idea='sh /opt/idea/idea-IC-212\.4746\.92/bin/idea.sh'
+# alias idea='sh /opt/idea/idea-IC-212\.4746\.92/bin/idea.sh'
 
 alias ll='ls --color -l --group-directories-first | bat'
 alias la='ls --color -la --group-directories-first | bat'

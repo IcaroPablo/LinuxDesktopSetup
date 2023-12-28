@@ -66,5 +66,5 @@ get_session(){
 $HOME/Workspace/shell-script-collection/bar.sh &
 $HOME/.fehbg &
 exec dwm
-
+#exec sowm
 # exec $(get_session "$1")
